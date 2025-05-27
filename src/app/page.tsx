@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiDownload } from 'react-icons/hi'
 import { Button } from '@/components/ui/button'
 import { ThemeToggle } from '@/components/theme-toggle'
+import { PortfolioSection } from '@/components/portfolio-section'
 
 export default function Home() {
   return (
@@ -64,6 +65,8 @@ export default function Home() {
           </div>
         </motion.div>
       </div>
+
+      <PortfolioSection />
     </main>
   )
 } 
